@@ -23,6 +23,9 @@ foreach($ul->find('li a') as $a){
     $pos = strpos($id ,"&");
     $id = substr($id ,0 ,$pos);
 
+	echo "$Pagelink $id \n";
+	
+	
 	//if Judgment is all of the game, and then changed to rank classification
     if(strcmp($id, "102") == 0){
         $name = "时下热门";
